@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="bootstrap.js"></script>
+    <title>ME Proj+1</title>
+</head>
+<body class="bg-dar" id="top">
+
+    <header>
+<!-- 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button> -->
+
+    
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark fixed-top " style="color: #ff5e14;">
+            <div class="container">
+                <a  onclick="alert('Hello\nHow are you?')" class="navbar-brand text-danger" href="#myPage"><b class="ugo">Ugo-Pro❤</b></a>
+                   <div class="menu-icon d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <!-- <span class="navbar-toggler-icon"></span>
+                              </button> -->
+                                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav1" >
+                                                <li class="nav-item" >
+                                                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                                                            </li>
+
+                                                            <li class="nav-item">
+                                                                <a class="nav-link text-light" href="#about">About</a>
+                                                                </li>
+
+                                                            <li class="nav-item">
+                                                                    <a class="nav-link text-light" href="#services">Services</a>
+                                                                    </li>
+                                                            <li class="nav-item">
+                                                                    <a class="nav-link text-light" href="#skills">Skills</a>
+                                                                    </li>
+
+                                                                    <li class="nav-item">
+                                                                    <a class="nav-link text-light" href="#my-works">Portfolio</a>
+                                                                    </li>
+
+
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link text-light" href="#contact">Contact</a>
+                                                                    </li>
+                                                                    <!-- <li class="nav-item">
+                                                                    <a class="nav-link text-light" href="#about">About</a>
+                                                                    </li>             -->
+
+                                                </li>
+                                            
+                                </ul>
+                    
+                </div>
+
+                 
+          <!-- Avatar -->
+          
+           <div class="dropdown">
+            <a
+            data-bs-toggle="dropdown"
+              data-mdb-dropdown-init
+              class="dropdown-toggle d-flex align-items-center hidden-arrow "
+              href="#"
+              id="navbarDropdownMenuAvatar"
+              role="button"
+              aria-expanded="false"
+            >
+              <img
+                src="JaneIMG/ugo1.jpg"
+                class="rounded-circle img"
+                height="25"
+                alt="Black and White Portrait of a Man"
+                loading="lazy"
+              />
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end "
+              aria-labelledby="navbarDropdownMenuAvatar"
+            >
+              <li>
+                <a class="dropdown-item" href="indx.html">My profile</a>
+              </li>
+              <li>
+                <a class="dropdown-item " href="index.htm">Settings</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Logout</a>
+              </li>
+            </ul>
+          </div> 
+        </div>
+
+        
+        <!-- Right elements -->
+      </div>
+      
+            </div>
+
+
+        </nav>
+
+        <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Ugo-Pro❤</h5>
+            <div class="menu-icon active" data-bs-dismiss="offcanvas">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="offcanvas-body ">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 nav2">
+                <li class="nav-item"><a class="nav-link" href="#home"><i class="bi bi-lightning-charge-fill"></i>Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about"><i class="bi bi-building"></i>About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services"><i class="bi bi-palette"></i>Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#price"><i class="bi bi-journal-text"></i>Price</a></li>
+                <li class="nav-item"><a class="nav-link" href="#my-works"><i class="bi bi-journal-text"></i> Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact"><i class="bi bi-journal-text"></i>Contact</a></li>
+            </ul>
+           
+            <a class="btn btn-see-more" href="#">See more &rarr;</a>
+
+        </div>
+        <div class="offcanvas-footer">
+            <div class="social-icons">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+
+                <span>
+                           <svg width="116" height="20" viewBox="0 0 116 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g clip-path="url(#clip0_3279_1743)">
+                                 <path d="M6.86915 6.1166L1.55249 6.88744L1.45832 6.9066C1.31577 6.94445 1.18582 7.01944 1.08173 7.12394C0.977646 7.22843 0.903158 7.35868 0.865873 7.50137C0.828589 7.64407 0.829844 7.79411 0.869511 7.93616C0.909178 8.07822 0.985835 8.2072 1.09165 8.30994L4.94332 12.0591L4.03499 17.3549L4.02415 17.4466C4.01543 17.594 4.04604 17.7411 4.11286 17.8729C4.17968 18.0046 4.28031 18.1162 4.40443 18.1962C4.52856 18.2762 4.67173 18.3218 4.81928 18.3284C4.96683 18.3349 5.11346 18.3021 5.24415 18.2333L9.99916 15.7333L14.7433 18.2333L14.8267 18.2716C14.9642 18.3258 15.1137 18.3424 15.2598 18.3197C15.4059 18.2971 15.5433 18.236 15.658 18.1427C15.7727 18.0494 15.8605 17.9272 15.9124 17.7888C15.9643 17.6504 15.9784 17.5006 15.9533 17.3549L15.0442 12.0591L18.8975 8.3091L18.9625 8.23827C19.0553 8.12391 19.1162 7.98698 19.1389 7.84143C19.1616 7.69588 19.1453 7.54692 19.0917 7.40971C19.0381 7.2725 18.9491 7.15196 18.8337 7.06036C18.7184 6.96876 18.5808 6.90938 18.435 6.88827L13.1183 6.1166L10.7417 1.29994C10.6729 1.16038 10.5664 1.04286 10.4343 0.960689C10.3022 0.878514 10.1497 0.834961 9.99416 0.834961C9.83858 0.834961 9.6861 0.878514 9.554 0.960689C9.42189 1.04286 9.31543 1.16038 9.24666 1.29994L6.86915 6.1166Z" fill="#F59E0B"></path>
+                              </g>
+                              <g clip-path="url(#clip1_3279_1743)">
+                                 <path d="M30.8692 6.1166L25.5525 6.88744L25.4583 6.9066C25.3158 6.94445 25.1858 7.01944 25.0817 7.12394C24.9776 7.22843 24.9032 7.35868 24.8659 7.50137C24.8286 7.64407 24.8298 7.79411 24.8695 7.93616C24.9092 8.07822 24.9858 8.2072 25.0917 8.30994L28.9433 12.0591L28.035 17.3549L28.0242 17.4466C28.0154 17.594 28.046 17.7411 28.1129 17.8729C28.1797 18.0046 28.2803 18.1162 28.4044 18.1962C28.5286 18.2762 28.6717 18.3218 28.8193 18.3284C28.9668 18.3349 29.1135 18.3021 29.2442 18.2333L33.9992 15.7333L38.7433 18.2333L38.8267 18.2716C38.9642 18.3258 39.1137 18.3424 39.2598 18.3197C39.4059 18.2971 39.5433 18.236 39.658 18.1427C39.7727 18.0494 39.8605 17.9272 39.9124 17.7888C39.9643 17.6504 39.9784 17.5006 39.9533 17.3549L39.0442 12.0591L42.8975 8.3091L42.9625 8.23827C43.0553 8.12391 43.1162 7.98698 43.1389 7.84143C43.1616 7.69588 43.1453 7.54692 43.0917 7.40971C43.0381 7.2725 42.9491 7.15196 42.8337 7.06036C42.7184 6.96876 42.5808 6.90938 42.435 6.88827L37.1183 6.1166L34.7417 1.29994C34.6729 1.16038 34.5664 1.04286 34.4343 0.960689C34.3022 0.878514 34.1497 0.834961 33.9942 0.834961C33.8386 0.834961 33.6861 0.878514 33.554 0.960689C33.4219 1.04286 33.3154 1.16038 33.2467 1.29994L30.8692 6.1166Z" fill="#F59E0B"></path>
+                              </g>
+                              <g clip-path="url(#clip2_3279_1743)">
+                                 <path d="M54.8692 6.1166L49.5525 6.88744L49.4583 6.9066C49.3158 6.94445 49.1858 7.01944 49.0817 7.12394C48.9776 7.22843 48.9032 7.35868 48.8659 7.50137C48.8286 7.64407 48.8298 7.79411 48.8695 7.93616C48.9092 8.07822 48.9858 8.2072 49.0917 8.30994L52.9433 12.0591L52.035 17.3549L52.0242 17.4466C52.0154 17.594 52.046 17.7411 52.1129 17.8729C52.1797 18.0046 52.2803 18.1162 52.4044 18.1962C52.5286 18.2762 52.6717 18.3218 52.8193 18.3284C52.9668 18.3349 53.1135 18.3021 53.2442 18.2333L57.9992 15.7333L62.7433 18.2333L62.8267 18.2716C62.9642 18.3258 63.1137 18.3424 63.2598 18.3197C63.4059 18.2971 63.5433 18.236 63.658 18.1427C63.7727 18.0494 63.8605 17.9272 63.9124 17.7888C63.9643 17.6504 63.9784 17.5006 63.9533 17.3549L63.0442 12.0591L66.8975 8.3091L66.9625 8.23827C67.0553 8.12391 67.1162 7.98698 67.1389 7.84143C67.1616 7.69588 67.1453 7.54692 67.0917 7.40971C67.0381 7.2725 66.9491 7.15196 66.8337 7.06036C66.7184 6.96876 66.5808 6.90938 66.435 6.88827L61.1183 6.1166L58.7417 1.29994C58.6729 1.16038 58.5664 1.04286 58.4343 0.960689C58.3022 0.878514 58.1497 0.834961 57.9942 0.834961C57.8386 0.834961 57.6861 0.878514 57.554 0.960689C57.4219 1.04286 57.3154 1.16038 57.2467 1.29994L54.8692 6.1166Z" fill="#F59E0B"></path>
+                              </g>
+                              <g clip-path="url(#clip3_3279_1743)">
+                                 <path d="M78.8692 6.1166L73.5525 6.88744L73.4583 6.9066C73.3158 6.94445 73.1858 7.01944 73.0817 7.12394C72.9776 7.22843 72.9032 7.35868 72.8659 7.50137C72.8286 7.64407 72.8298 7.79411 72.8695 7.93616C72.9092 8.07822 72.9858 8.2072 73.0917 8.30994L76.9433 12.0591L76.035 17.3549L76.0242 17.4466C76.0154 17.594 76.046 17.7411 76.1129 17.8729C76.1797 18.0046 76.2803 18.1162 76.4044 18.1962C76.5286 18.2762 76.6717 18.3218 76.8193 18.3284C76.9668 18.3349 77.1135 18.3021 77.2442 18.2333L81.9992 15.7333L86.7433 18.2333L86.8267 18.2716C86.9642 18.3258 87.1137 18.3424 87.2598 18.3197C87.4059 18.2971 87.5433 18.236 87.658 18.1427C87.7727 18.0494 87.8605 17.9272 87.9124 17.7888C87.9643 17.6504 87.9784 17.5006 87.9533 17.3549L87.0442 12.0591L90.8975 8.3091L90.9625 8.23827C91.0553 8.12391 91.1162 7.98698 91.1389 7.84143C91.1616 7.69588 91.1453 7.54692 91.0917 7.40971C91.0381 7.2725 90.9491 7.15196 90.8337 7.06036C90.7184 6.96876 90.5808 6.90938 90.435 6.88827L85.1183 6.1166L82.7417 1.29994C82.6729 1.16038 82.5664 1.04286 82.4343 0.960689C82.3022 0.878514 82.1497 0.834961 81.9942 0.834961C81.8386 0.834961 81.6861 0.878514 81.554 0.960689C81.4219 1.04286 81.3154 1.16038 81.2467 1.29994L78.8692 6.1166Z" fill="#F59E0B"></path>
+                              </g>
+                              <g clip-path="url(#clip4_3279_1743)">
+                                 <path d="M102.869 6.1166L97.5525 6.88744L97.4583 6.9066C97.3158 6.94445 97.1858 7.01944 97.0817 7.12394C96.9776 7.22843 96.9032 7.35868 96.8659 7.50137C96.8286 7.64407 96.8298 7.79411 96.8695 7.93616C96.9092 8.07822 96.9858 8.2072 97.0917 8.30994L100.943 12.0591L100.035 17.3549L100.024 17.4466C100.015 17.594 100.046 17.7411 100.113 17.8729C100.18 18.0046 100.28 18.1162 100.404 18.1962C100.529 18.2762 100.672 18.3218 100.819 18.3284C100.967 18.3349 101.113 18.3021 101.244 18.2333L105.999 15.7333L110.743 18.2333L110.827 18.2716C110.964 18.3258 111.114 18.3424 111.26 18.3197C111.406 18.2971 111.543 18.236 111.658 18.1427C111.773 18.0494 111.86 17.9272 111.912 17.7888C111.964 17.6504 111.978 17.5006 111.953 17.3549L111.044 12.0591L114.897 8.3091L114.962 8.23827C115.055 8.12391 115.116 7.98698 115.139 7.84143C115.162 7.69588 115.145 7.54692 115.092 7.40971C115.038 7.2725 114.949 7.15196 114.834 7.06036C114.718 6.96876 114.581 6.90938 114.435 6.88827L109.118 6.1166L106.742 1.29994C106.673 1.16038 106.566 1.04286 106.434 0.960689C106.302 0.878514 106.15 0.834961 105.994 0.834961C105.839 0.834961 105.686 0.878514 105.554 0.960689C105.422 1.04286 105.315 1.16038 105.247 1.29994L102.869 6.1166Z" fill="#F59E0B"></path>
+                              </g>
+                              <defs>
+                                 <clipPath id="clip0_3279_1743">
+                                    <rect width="20" height="20" fill="white"></rect>
+                                 </clipPath>
+                                 <clipPath id="clip1_3279_1743">
+                                    <rect width="20" height="20" fill="white" transform="translate(24)"></rect>
+                                 </clipPath>
+                                 <clipPath id="clip2_3279_1743">
+                                    <rect width="20" height="20" fill="white" transform="translate(48)"></rect>
+                                 </clipPath>
+                                 <clipPath id="clip3_3279_1743">
+                                    <rect width="20" height="20" fill="white" transform="translate(72)"></rect>
+                                 </clipPath>
+                                 <clipPath id="clip4_3279_1743">
+                                    <rect width="20" height="20" fill="white" transform="translate(96)"></rect>
+                                 </clipPath>
+                              </defs>
+                           </svg>
+
+            </div>
+        </div>
+    </div>
+ <!-- home section start -->
+ <section class="home" id="home">
+    <div class="max-width">
+        <div class="home-content">
+            <!-- <div class="text-1 first-letter">Hello, my name is</div> -->
+            <p class="text-1 f-letter">Hello, my name is</p>
+
+           <!--   main header -->
+  <div class="MainTitleRow ">
+    <ul class="titleList text-shadow">
+      <li id="bLetter">U</li>
+      <li id="eLetter" class="removedL">G</li>
+      <li id="nLetter" class="removedL">O</li>
+      <li id="cLetter" class="removedL">-</li>
+      <li id="hLetter" class="removedL">P</li>
+      <li id="oLetter" class="removedL">R</li>
+      <li id="vLetter" class="removedL">O</li>
+    </ul>
+    
+</div>
+<!--   end main header -->
+
+
+            <!-- <div class="text-2">Ugo-Pro</div> -->
+            <!-- <p id="demo" class="para">Hey connect with Ugo-Pro and make your world go round!</p> -->
+            <p id="demo" class="text-trans2">Your happiness is my real earning</p>
+            <!-- <button class="btn" type="button" onclick="document.getElementById('demo').style.fontSize='25px'">❤!!</button> -->
+            <!-- <button class="btn" type="button" onclick='document.getElementById("demo").innerHTML = "Hey connect with Ugo-Pro and make your world go round!"'>❤</button> -->
+            <!-- <p>Web Developer & I Design Interfaces That Users Love</p> -->
+            <!-- <div class="text-3">And I'm a </div> -->
+            <div class="classbox">
+            <a href="#contact">Hire me</a>
+        </div>
+        </div>
+    </div>
+</section>
+
+<!-- end trial -->
+
+        
+    </header>
+       
+        <!-- Container (About Section) -->
+        <div id="about" class="container-fluid bg-grey">
+
+            <div class="row slide">
+                <div class="col-md-6">
+                  <h2 class="text-center display-6">About Me❤</h2>
+                  <hr class="bg-primary mb-4 mt-0  mx-auto" style="width: 100px; height:3px;">
+                  <br>
+                  <p class="mt-4 text-trans iam">
+                    I'M Ugo-Pro And I'M a young man with dynamic and enthusiastic person looking for the job of Web Design and Development mostly specializing in front end development. A firm believer in my own abilities, I am also a team player who thrives in a challenging environment.I am a fresher with new and dynamics project ideas. Well-versed in numerous programming languages including HTML5,MySQL,JavaScript,BootStrap and strong background in project management and customer relations.
+                </p>
+                <h4>I Design Interfaces That Users Love❤</h4><br>
+                  <a id="" href="#skill">
+                    <button class="btn1 ">Resume &rarr;</button>
+                  </a>
+                
+                <!-- <button class="btn1 ">Resume &rarr;</button> -->
+                <!-- <button><a href="cv/sample.pdf" download="cv/sample.pdf">Download CV</a></button> -->
+                
+              
+                </div><br>
+
+                <div class="col-md-6 my- blog-image ">
+                    <img src="JaneIMG/routine2+.jpg" alt="IMAGE" class="img-flui w-100 img banner-animation" style="border-radius: 10px;">
+                
+                </div>
+              </div>
+            </div>
+            
+            <div id="services" class="container-fluid bg-grey3">
+
+
+              <div class="text-center my-5" id="servic">
+                <h2 class=" text-center text-danger display">My Services</h2>
+                <hr class="bg-primary mb-4 mt-0 d-inline-block mx-auto" style="width: 100px; height:3px;">
+            
+                <!-- <p class="text-center text-white">-What I Provide-</p> -->
+
+                </div>
+
+
+                <div class="row blog-image slide">
+                    <div class="col">
+                        <div class="card-group">
+                            <div class="card">
+                                <img src="JaneIMG/chef.jpg" class="card-img-top img" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Digital Marketing❤</h5>
+                                    
+                                    <p class="card-text text-dark">
+                                        
+                                         <i>Digital Marketing is the only tools which helps people to build & advertised their business digitally which make people more attracted to their products and their business.</i>
+                                    </p>
+                                    <p class="card-text">
+                                        <small class="text-muted">Last updated 3 mins ago</small>
+                                    </p>
+                                    <div class="text-center">
+                                      <button class="btn1 ">read more &rarr;</button>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="JaneIMG/app.jpg" class="card-img-top img " alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center"> UX/UI❤</h5>
+                                    <p ></p>
+                                    <p class="card-text text-dark">
+                                        <i>
+                                          I am a Fresher UX/UI designer. I have make different design with different ideas.<span id="dots">...</span><span id="more"> I'M today's rat race new fresher have more mind blowing ideas with more expoloring ideas.</span></i>
+                                        </p> 
+                                        
+                                    <p class="card-text">
+                                        <small class="text-muted">Last updated 3 mins ago</small>
+                                    </p> 
+                                    <div class="text-center">
+                                      <button class="btn1" onclick="myFunction()" id="myBtn">read more &rarr;</button>
+
+                                      <!-- <button class="btn1 ">read more &rarr;</button> -->
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="JaneIMG/tech_tablet.jpg" class="card-img-top img" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Strategy & Research❤</h5>
+                                    <p class="card-text text-dark">
+                                        <i>
+                                           In this digital world. I help people in building their business and brand digitally which helps in many thing like:Brand building, more seling etc.</i>
+                                       
+                                    </p>
+                                    <p class="card-text">
+                                        <small class="text-muted">Last updated 3 mins ago</small>
+                                    </p>
+                                    <div class="text-center">
+                                      <button class="btn1 ">read more &rarr;</button>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            <div class="container-fluid  my-3">
+                 <h5 class="fs-3 fw-bold mb-2 mt-4 text-center">Don’t just take our words for it, <br> See what? Clients like you
+                    are saying♥️</h5>
+                 <!-- <p class="text-center text-light">Real customer’s review our services</p> -->
+            </div>
+            
+                <div class="container-md d-flex align-items-center gap-2 justify-content-center">
+
+                <div class="avatar-group banner-animation ">
+                <div class="avatar">
+                    <span class="avatar-name">Kathryne Denman</span>
+                    <img src="JaneIMG/avatar_hat.jpg" alt="Image">
+                </div>
+                <div class="avatar">
+                    <span class="avatar-name">Mr. Darrin Rey</span>
+                    <img src="JaneIMG/jane.jpg" alt="Image">
+                </div>
+                <div class="avatar">
+                    <span class="avatar-name">Ms. Kim Sager</span>
+                    <img src="JaneIMG/team1.jpg" alt="Image">
+                </div>
+                <div class="avatar">
+                    <span class="avatar-name">Richard Topham</span>
+                    <img src="JaneIMG/parallax3.jpg" alt="Image">
+                </div>
+                <div class="avatar">
+                    <span class="avatar-name">Dr. Matthew Nicolas</span>
+                    <img src="JaneIMG/coffee.jpg" alt="Image">
+                </div>
+                <div class="text-white">
+                            Over
+                    <span class="text-light fw-semibold">100+</span>
+                        Happy Clients
+                        </div>
+                </div>
+
+                </div>
+              
+                <div class="text-center my-5">
+                  <a href="inde.html" target="_self">
+                    <button class="btn1 ">view more &rarr;</button>
+                    
+                  </a>
+                 
+                </div>
+
+                <!-- <a class="" href="#">See more &rarr;</a> -->
+
+
+                <!-- <div class="text-center my-5">
+                  <button type="submit" class="btn1">send &rarr;</button>
+              </div> -->
+        </div>
+
+        <!-- Project section -->
+
+        <div id="skills" class="container-fluid bg-grey5">
+
+          
+          <div class="text-center my-3">
+            <h2 class="">My creative skills</h2>
+            <hr class="bg-primary mb-4 mt-0 d-inline-block mx-auto" style="width: 100px; height:3px;">
+           
+                </div>
+
+                <section class="about-me slide" id="about">
+                    <div class="container-fluid">
+                      <div class="about-content">
+                        <div class="left-content">
+                          <div>
+                           <!-- <h1 class="about-heading">About Me</h1> -->
+                          </div> 
+                          <img class="img banner-animation" src="JaneIMG/ugo1.jpg" alt="image" />
+                          <p class="text-trans iam1">
+                            I am motivated by meeting set targets within deadlines, as it gives me a sense of accomplishment and it's something that I can look back on and say "I achieved that". That feeling gives me a bunch of power to execute my dream.
+                            <!-- I'M Ugo-Pro And I'M a young man with dynamic and enthusiastic person looking for the job of Web Design and Development mostly specializing in front end development.
+                            I really enjoy solving problems as well as making things pretty and easy to use. I can't stop learning new
+                            things; the more, the better. -->
+                          </p>
+                          <div class="work-arrow">
+                            <p>
+                              <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="skills ">
+                          <div class="right-content">
+                            <div>
+                              <h1 class="skills-heading">My Skills</h1>
+                            </div>
+                            <div class="skills-bar">
+                              <div class="bar">
+                                <div class="info">
+                                  <span>HTML</span>
+                                </div>
+                                <div class="progress-line"><span class="html"></span></div>
+                                <div class="bar">
+                                  <div class="info">
+                                    <span>CSS</span>
+                                  </div>
+                                  <div class="progress-line"><span class="css"></span></div>
+                                  <div class="bar">
+                                    <div class="info">
+                                      <span>BOOTSTRAP</span>
+                                    </div>
+                                    <div class="progress-line"><span class="bootstrap"></span></div>
+                                    <div class="bar">
+                                      <div class="info">
+                                        <span>JAVASCRIPT</span>
+                                      </div>
+                                      <div class="progress-line"><span class="javascript"></span></div>
+                                      <div class="bar">
+                                        <div class="info">
+                                          <span>C Programming</span>
+                                        </div>
+                                        <div class="progress-line"><span class="c"></span></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="work-arrow-2">
+                              <p>
+                                <a id="" href="#my-works" class="text-light">Check out my work <i class="fas fa-arrow-down"></i></a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                 </section>
+                 <!-- SKILLS ENDS -->
+
+                 
+
+           
+        </div> 
+
+
+
+        <!--  PORTFOLIO SECTION -->
+        
+
+        <section id="my-works" class="container-fluid bg-grey6">
+            <div class="portfolio">
+                <div class="text-center my-3">
+                    <h2 class="">My Portfolio</h2>
+                    <hr class="bg-primary mb-4 mt-0 d-inline-block mx-auto" style="width: 100px; height:3px;">
+
+                    <div class="container-fluid">
+                      <marquee width="100%" direction="left">
+               
+                        <span class="text-info">Boost Your Online Presence! -</span>
+                           <span class="text-info">Register Your Website Domain and Hosting Today! - </span>
+                           <span class="text-info">Get Online Get Noticed!!❤</span>
+                        
+                        
+                           </marquee><br><br>
+
+                           <div class="container banner-animation ">
+                            <a href="#"> <span class="badge rounded-pill bg-primary" title="UX/UI">UX/UI</span></a>
+                            <a href="#"><span class="badge rounded-pill bg-secondary" title="WebDomain">WebDomain</span></a>
+                            <a href="#"><span class="badge rounded-pill bg-success" title="WebHosting">WebHosting</span></a>
+                            <a href="#"><span class="badge rounded-pill bg-danger"></span></a>
+                            <a href="#"><span class="badge rounded-pill bg-warning" title="">Bitget</span></a>
+                            <a href="#"><span class="badge rounded-pill bg-info text-dark" title="">KCoin-Kloud$</span></a>
+                            <a href="#"><span class="badge rounded-pill bg-light text-dark" title="">Bitfinex</span></a>
+                            <a href="#"><span class="badge rounded-pill bg-dark" title="">Kraken</span></a>
+                
+          
+                           </div>
+
+                     </div>
+
+                    
+
+                    
+
+                   <!-- <div class="container-fluid text-1">
+                    <p class="">
+                      Creativity is not something that you do. It is something that you are.
+Creativity is a lens through which you implicitly and unconsciously see the world. <br> It is the blue tinted glasses that you don’t know you are wearing, changing the tone of everything you see.
+                    </p>
+                   </div> -->
+                        </div>
+              <!-- <div class="proj-heading">
+                <h1>Portfolio</h1>
+                <hr class="bg-primary mt-0 mx-auto" style="width: 100px; height:3px;">
+              </div> -->
+              <div class="portfolio-content  ">
+                <div class="proj-1">
+                  <img src="JaneIMG/coffee.jpg" class="banner-animation img-fluid">
+                  <div class="proj1-details img-fluid">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js"></i>
+                    <h2>Spa Company Website UI</h2>
+                    <p>Build Using HTML,CSS,JS</p>
+                    
+                    <button><a href="#" target="blank">View source <i
+                      class="fas fa-external-link-alt"></i></a>
+                    </button>
+                    <button><a href="#" target="blank">Try it Live <i
+                      class="fas fa-external-link-alt"></i></a>
+                  </button>
+                  </div>
+                </div>
+                
+                <div class="proj-2">
+                  <img src="JaneIMG/img_snow.jpg" class="banner-animation img-fluid">
+                  <div class="proj2-details img-fluid">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <h2>Clothen Company Website</h2>
+                    <p>Build Using HTML,CSS</p>
+                    <button><a href="#" target="blank">View source <i
+                      class="fas fa-external-link-alt"></i></a>
+                    </button>
+                    <button><a href="#" target="blank">Try it Live <i
+                      class="fas fa-external-link-alt"></i></a>
+                  </button>
+                  </div>
+                  
+                </div>
+                <div class="more-work">
+                  <!-- <p>
+                    More
+                  </p> -->
+                  <a href="#portfolio" target="blank" class="text-light">View more source</a>
+              
+                </div>
+
+              </div>
+
+            </div>
+          </section>
+          <!-- PORTFOLIO SECTION ENDS -->
+
+
+        <!-- contact section -->
+        <div id="contact" class="container-fluid bg-grey">
+
+          <div class="text-center my-5">
+            <h2 class="">Get in touch</h2>
+            <hr class="bg-primary mb-4 mt-0 d-inline-block mx-auto" style="width: 100px; height:3px;">
+           
+            <p class="lead text-white">Qustions! Do not hesitate to contact us.</p>
+            <p class="text-white"><i>If you are interested in working together? Please fill out the form below with some info about your project and I will get back to you as soon as I can. Please allow a couple days for me to respond.</p>
+        </i></div>
+        <div class="row justify-content-center my-5">
+            <div class="col-lg-6">
+                <form action="mailto:uking40@yahoo.com" method="post" enctype="text/plain">
+                    <label form="email" class="form-label text-white">Email</label>
+                    <input type="email" id="email" placeholder="code@gmail.com" class="form-control">
+        
+                        <div class="form-floating my-5">
+                        
+                        <input type="name"
+                        id="name"
+                        placeholder="@example Ugo" 
+                        class="form-control">
+                        
+                        <label form="name" class="form-label text-dark">Name</label>
+                        </div>
+        
+                        <label form="subject" class="form-label text-white">subject</label>
+                        <select name=" subject" id="subject" class="form-select">
+                        <option value="pricing">pricing</option>
+                        <option value="technical" selected>technical</option>
+                        <option value="others">others</option>
+                        </select>
+        
+                        <div class="form-floating my-5">
+                            <textarea 
+                                        name="query" 
+                                        id="query" 
+                                        style="height: 150px;"
+                                        class="form-control" 
+                                    placeholder="write a message"
+                                        
+                        ></textarea>
+        
+                            <label form="query" class="text-dark">Write a message</label>
+                        </div>
+                    
+        
+                        <div class="text-center">
+                            <button type="submit" class="btn1">send &rarr;</button>
+                        </div>
+                </form>
+            
+                
+            </div>
+
+        </div>
+        <div class="container-fluid text-center my-3">
+         
+      
+                 
+                  
+              </div>
+    </div>
+
+        </div>
+
+        
+
+        <div id="contact" class="">
+
+
+          <!-- footer -->
+    <footer class="footer-section">
+      <div class="container">
+          <div class="footer-cta pt-5 pb-5">
+              <div class="row">
+                  <div class="col-xl-4 col-md-4 mb-30">
+                      <div class="single-cta">
+                          <i class="fas fa-map-marker-alt">
+                           <svg class="svg-icon" viewBox="0 0 20 20">
+        <path d="M10,1.375c-3.17,0-5.75,2.548-5.75,5.682c0,6.685,5.259,11.276,5.483,11.469c0.152,0.132,0.382,0.132,0.534,0c0.224-0.193,5.481-4.784,5.483-11.469C15.75,3.923,13.171,1.375,10,1.375 M10,17.653c-1.064-1.024-4.929-5.127-4.929-10.596c0-2.68,2.212-4.861,4.929-4.861s4.929,2.181,4.929,4.861C14.927,12.518,11.063,16.627,10,17.653 M10,3.839c-1.815,0-3.286,1.47-3.286,3.286s1.47,3.286,3.286,3.286s3.286-1.47,3.286-3.286S11.815,3.839,10,3.839 M10,9.589c-1.359,0-2.464-1.105-2.464-2.464S8.641,4.661,10,4.661s2.464,1.105,2.464,2.464S11.359,9.589,10,9.589"></path>
+      </svg>
+                          </i>
+                          <div class="cta-text">
+                              <h4>Find us</h4>
+                              <span>Abuja, Nigeria</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-md-4 mb-30">
+                      <div class="single-cta">
+                          <i class="fas fa-phone">
+                            <svg class="svg-icon" viewBox="0 0 24 24" width="24" height="24">
+        <path d="M9.366 10.682a10.556 10.556 0 0 0 3.952 3.952l.884-1.238a1 1 0 0 1 1.294-.296 11.422 11.422 0 0 0 4.583 1.364 1 1 0 0 1 .921.997v4.462a1 1 0 0 1-.898.995c-.53.055-1.064.082-1.602.082C9.94 21 3 14.06 3 5.5c0-.538.027-1.072.082-1.602A1 1 0 0 1 4.077 3h4.462a1 1 0 0 1 .997.921A11.422 11.422 0 0 0 10.9 8.504a1 1 0 0 1-.296 1.294l-1.238.884zm-2.522-.657l1.9-1.357A13.41 13.41 0 0 1 7.647 5H5.01c-.006.166-.009.333-.009.5C5 12.956 11.044 19 18.5 19c.167 0 .334-.003.5-.01v-2.637a13.41 13.41 0 0 1-3.668-1.097l-1.357 1.9a12.442 12.442 0 0 1-1.588-.75l-.058-.033a12.556 12.556 0 0 1-4.702-4.702l-.033-.058a12.442 12.442 0 0 1-.75-1.588z" />
+      </svg>
+                          </i>
+                          <div class="cta-text">
+                              <h4>Call us</h4>
+                              <span>+234 08153911801</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-md-4 mb-30">
+                      <div class="single-cta">
+                          <i class="far fa-envelope-open"> 
+                            <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+        <path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z" />
+      </svg>
+                          </i>
+                          <div class="cta-text">
+                              <h4>Mail us</h4>
+                              <span>uking40@yahoo.com</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-content pt-5 pb-5">
+              <div class="row blog-image">
+                  <div class="col-xl-4 col-lg-4 mb-50">
+                      <div class="footer-widget">
+                          <div class="footer-logo">
+                              <a href="index.html"><img src="JaneIMG/ugo1.jpg" class="img-fluid img banner-animation" alt="logo"></a>
+                          </div>
+                          <div class="footer-text">
+                              <p class="text-trans iam">My name is Ugo-Pro and am a Developer & a UX/UI Designer❤ &#128525;.It's not what we do once in a while that shapes our lives, but what we do consistently.</p>
+                          </div>
+                          <div class="footer-social-icon">
+                              <span>Follow us</span>
+                              <a href="https://www.facebook.com/"><i class="fab fa-facebook-f facebook-bg">
+                                <svg class="svg-icon" viewBox="0 0 20 20">
+        <path fill="none" d="M11.344,5.71c0-0.73,0.074-1.122,1.199-1.122h1.502V1.871h-2.404c-2.886,0-3.903,1.36-3.903,3.646v1.765h-1.8V10h1.8v8.128h3.601V10h2.403l0.32-2.718h-2.724L11.344,5.71z"></path>
+      </svg>
+                              </i></a>
+                              <a href="#"><i class="fab fa-twitter twitter-bg">
+                                <svg class="svg-icon" viewBox="0 0 20 20">
+        <path fill="none" d="M18.258,3.266c-0.693,0.405-1.46,0.698-2.277,0.857c-0.653-0.686-1.586-1.115-2.618-1.115c-1.98,0-3.586,1.581-3.586,3.53c0,0.276,0.031,0.545,0.092,0.805C6.888,7.195,4.245,5.79,2.476,3.654C2.167,4.176,1.99,4.781,1.99,5.429c0,1.224,0.633,2.305,1.596,2.938C2.999,8.349,2.445,8.19,1.961,7.925C1.96,7.94,1.96,7.954,1.96,7.97c0,1.71,1.237,3.138,2.877,3.462c-0.301,0.08-0.617,0.123-0.945,0.123c-0.23,0-0.456-0.021-0.674-0.062c0.456,1.402,1.781,2.422,3.35,2.451c-1.228,0.947-2.773,1.512-4.454,1.512c-0.291,0-0.575-0.016-0.855-0.049c1.588,1,3.473,1.586,5.498,1.586c6.598,0,10.205-5.379,10.205-10.045c0-0.153-0.003-0.305-0.01-0.456c0.7-0.499,1.308-1.12,1.789-1.827c-0.644,0.28-1.334,0.469-2.06,0.555C17.422,4.782,17.99,4.091,18.258,3.266"></path>
+      </svg>
+                              </i></a>
+                              <a href="#"><i class="fab fa-google-plus-g google-bg">
+                                <svg class="svg-icon" viewBox="0 0 20 20">
+        <path fill="none" d="M9.426,7.625h0.271c0.596,0,1.079-0.48,1.079-1.073V4.808c0-0.593-0.483-1.073-1.079-1.073H9.426c-0.597,0-1.079,0.48-1.079,1.073v1.745C8.347,7.145,8.83,7.625,9.426,7.625 M9.156,4.741c0-0.222,0.182-0.402,0.404-0.402c0.225,0,0.405,0.18,0.405,0.402V6.62c0,0.222-0.181,0.402-0.405,0.402c-0.223,0-0.404-0.181-0.404-0.402V4.741z M12.126,7.625c0.539,0,1.013-0.47,1.013-0.47v0.403h0.81V3.735h-0.81v2.952c0,0-0.271,0.335-0.54,0.335c-0.271,0-0.271-0.202-0.271-0.202V3.735h-0.81v3.354C11.519,7.089,11.586,7.625,12.126,7.625 M6.254,7.559H7.2v-2.08l1.079-2.952H7.401L6.727,4.473L6.052,2.527H5.107l1.146,2.952V7.559z M11.586,12.003c-0.175,0-0.312,0.104-0.405,0.204v2.706c0.086,0.091,0.213,0.18,0.405,0.18c0.405,0,0.405-0.451,0.405-0.451v-2.188C11.991,12.453,11.924,12.003,11.586,12.003 M14.961,8.463c0,0-2.477-0.129-4.961-0.129c-2.475,0-4.96,0.129-4.96,0.129c-1.119,0-2.025,0.864-2.025,1.93c0,0-0.203,1.252-0.203,2.511c0,1.252,0.203,2.51,0.203,2.51c0,1.066,0.906,1.931,2.025,1.931c0,0,2.438,0.129,4.96,0.129c2.437,0,4.961-0.129,4.961-0.129c1.117,0,2.024-0.864,2.024-1.931c0,0,0.202-1.268,0.202-2.51c0-1.268-0.202-2.511-0.202-2.511C16.985,9.328,16.078,8.463,14.961,8.463 M7.065,10.651H6.052v5.085H5.107v-5.085H4.095V9.814h2.97V10.651z M9.628,15.736h-0.81v-0.386c0,0-0.472,0.45-1.012,0.45c-0.54,0-0.606-0.515-0.606-0.515v-3.991h0.809v3.733c0,0,0,0.193,0.271,0.193c0.27,0,0.54-0.322,0.54-0.322v-3.604h0.81V15.736z M12.801,14.771c0,0,0,1.03-0.742,1.03c-0.455,0-0.73-0.241-0.878-0.429v0.364h-0.876V9.814h0.876v1.92c0.135-0.142,0.464-0.439,0.878-0.439c0.54,0,0.742,0.45,0.742,1.03V14.771z M15.973,12.39v1.287h-1.688v0.965c0,0,0,0.451,0.405,0.451s0.405-0.451,0.405-0.451v-0.45h0.877v0.708c0,0-0.136,0.901-1.215,0.901c-1.08,0-1.282-0.901-1.282-0.901v-2.51c0,0,0-1.095,1.282-1.095S15.973,12.39,15.973,12.39 M14.69,12.003c-0.405,0-0.405,0.45-0.405,0.45v0.579h0.811v-0.579C15.096,12.453,15.096,12.003,14.69,12.003"></path>
+      </svg>
+                              </i></a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                      <div class="footer-widget">
+                          <div class="footer-widget-heading">
+                              <h3>Useful Links</h3>
+                          </div>
+                          <ul>
+                              <li class="li-2"><a href="#">- Home</a></li>
+                              <li class="li-2"><a href="#about">- about</a></li>
+                              <li class="li-2"><a href="#services">- services</a></li>
+                              <li class="li-2"><a  href="#my-works">- portfolio</a></li>
+                              <li class="li-2"><a href="#">- Contact</a></li>
+                              <li class="li-2"><a href="#">- About us</a></li>
+                              <li class="li-2"><a href="#">- Our Services</a></li>
+                              <li class="li-2"><a href="inde.htm">- Expert Team</a></li>
+                              <li class="li-2"><a href="login.html">- Contact us</a></li>
+                              <li class="li-2"><a href="#">- Latest News</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                      <div class="footer-widget">
+                          <div class="footer-widget-heading">
+                              <h3>Subscribe</h3>
+                          </div>
+                          <div class="footer-text mb-25">
+                              <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                          </div>
+                          <div class="subscribe-form">
+                              <form action="#">
+                                  <input type="text" placeholder="Email Address">
+                                  <button><i class="fab fa-telegram-plane">
+                                    <svg class="svg-icon" viewBox="0 0 20 20">
+        <path d="M17.218,2.268L2.477,8.388C2.13,8.535,2.164,9.05,2.542,9.134L9.33,10.67l1.535,6.787c0.083,0.377,0.602,0.415,0.745,0.065l6.123-14.74C17.866,2.46,17.539,2.134,17.218,2.268 M3.92,8.641l11.772-4.89L9.535,9.909L3.92,8.641z M11.358,16.078l-1.268-5.613l6.157-6.157L11.358,16.078z"></path>
+      </svg>
+                                  </i></button>
+                              </form>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+        <div class="container">
+</div>
+
+      <div class="copyright-area">
+          <div class="container">
+              <div class="row">
+                  <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                      <div class="copyright-text">
+                          <p>Copyright &copy; 2018, All Right Reserved <a href="https://ugo-pro.org">Ugo-Pro</a></p>
+                      </div>
+                  </div>
+
+                  
+
+                  <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                      <div class="footer-menu">
+                          <ul>
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">Terms</a></li>
+                              <li><a href="#">Privacy</a></li>
+                              <li><a href="#">Policy</a></li>
+                              <li><a href="#">Contact</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+        <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top active" aria-label="Go To Top" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+  <!-- ends -->
+
+                       <a href="whatsapp://send?phone=+234 08153911801"><svg viewBox="0 0 32 32" class="whatsapp-ico"><path d=" M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z" fill-rule="evenodd"></path></svg></a>  
+      
+  </footer>
+
+        </div>
+     
+            <script src="js/script.js"></script>
+            
+</body>
+</html>
+
+<!-- 
+
+  <div class="container text-center my-3">
+    <marquee width="100%" direction="left">
+         <a href="#"> <span class="badge rounded-pill bg-primary">Coinbase</span></a>
+            <a href="#"><span class="badge rounded-pill bg-secondary">Binance</span></a>
+            <a href="#"><span class="badge rounded-pill bg-success">Gemini</span></a>
+            <a href="#"><span class="badge rounded-pill bg-danger">Bybit</span></a>
+            <a href="#"><span class="badge rounded-pill bg-warning">Bitget</span></a>
+            <a href="#"><span class="badge rounded-pill bg-info text-dark">KCoin-Kloud$</span></a>
+            <a href="#"><span class="badge rounded-pill bg-light text-dark">Bitfinex</span></a>
+            <a href="#"><span class="badge rounded-pill bg-dark">Kraken</span></a>
+
+  </marquee>
+
+           
+            
+        </div>
+ -->
+
+<!-- 
+
+<div class="alert alert-danger alert-dismissible fade show" role="alert">
+   <marquee width="100%" direction="left">
+
+<span class="text-info">Boost Your Online Presence! -</span>
+   <span class="text-info">Register Your Website Domain and Hosting Today! - </span>
+   <span class="text-info">Get Online Get Noticed!!❤</span>
+
+
+   </marquee>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+ </div>
+
+
+  <marquee width="100%" direction="left">
+
+<span class="text-info">Boost Your Online Presence! -</span>
+   <span class="text-info">Register Your Website Domain and Hosting Today! - </span>
+   <span class="text-info">Get Online Get Noticed!!❤</span>
+
+
+   </marquee>
+
+ <div class="alert alert-danger alert-dismissible fade show" role="alert">
+     <strong>Bingo! Holy Harry!</strong> Hey buddy! Jump on it check in on some of those details below. Seize the momemt with your Ugo-Pro &#128525;
+     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+ </div> -->
+
+
+
+<!-- 
+❤
+            <div class="row blog-image slide">
+                <div class="col">
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="JaneIMG/chef.jpg" class="card-img-top img" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Digital Marketing❤</h5>
+                                
+                                <p class="card-text text-dark">
+                                    
+                                     <i>Digital Marketing is the only tools which helps people to build & advertised their business digitally which make people more attracted to their products and their business.</i>
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </p>
+                                <div class="text-center">
+                                  <button class="btn1 ">read more &rarr;</button>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="JaneIMG/app.jpg" class="card-img-top img " alt="">
+                            <div class="card-body">
+                                <h5 class="card-title text-center"> UX/UI❤</h5>
+                                <p ></p>
+                                <p class="card-text text-dark">
+                                    <i>
+                                      I am a Fresher UX/UI designer. I have make different design with different ideas. I'M today's rat race new fresher have more mind blowing ideas with more expoloring ideas.</i>
+                                    </p> 
+                                    
+                                <p class="card-text">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </p> 
+                                <div class="text-center">
+                                  <button class="btn1 ">read more &rarr;</button>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="JaneIMG/tech_tablet.jpg" class="card-img-top img" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Development❤</h5>
+                                <p class="card-text text-dark">
+                                    <i>
+                                       In this digital world. I help people in building their business and brand digitally which helps in many thing like:Brand building, more seling etc.</i>
+                                   
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </p>
+                                <div class="text-center">
+                                  <button class="btn1 ">read more &rarr;</button>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  -->
+
+              <!--     <form action="mailto:uking40@yahoo.com" method="post" enctype="text/plain">
+
+<label for="name">Name:</label><br>
+<input type="text" id="name" name="name"><br>
+<label for="message">Message:</label><br>
+<textarea id="message" name="message"></textarea><br>
+<input type="submit" value="Send Email">
+</form> -->
